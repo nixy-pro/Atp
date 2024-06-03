@@ -24,9 +24,12 @@ wget -q https://raw.githubusercontent.com/nixy-pro/Atp/master/update.sh && chmod
 
 
 ### Khusus Untuk OS
-* • Debian 10 & 9
-* • Ubuntu 18.04 & 20.04
-* Working For VPS AWS,AZURE,DO,LINODE
+
+• Debian 10 & 9
+
+• Ubuntu 18.04 & 20.04
+
+• Working For VPS AWS,AZURE,DO,LINODE
 
 
 
