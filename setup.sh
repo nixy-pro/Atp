@@ -316,26 +316,22 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="62052742427"
-KEY="70676215872:AAHu3Hkncs7bX6dUju6YrwtRi-12NNvlY80"
+CHATID="-1001850051195"
+KEY="6525206851:AAEK0Wcrr86LiFOe8M0E4Vn9xH0qIPN8rqE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>⚡ReeMods premium tunneling⚡</b>
-<code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <code>User     :</code><code>$username</code>
-<code>Domain   :</code><code>$domain</code>
-<code>IPVPS    :</code><code>$MYIP</code>
+<code>IP VPS   :</code><code>$MYIP</code>
 <code>ISP      :</code><code>$ISP</code>
 <code>DATE     :</code><code>$DATE</code>
-<code>Time     :</code><code>$TIMEZONE</code>
-<code>Exp Sc.  :</code><code>$exp</code>
+<code>TIME     :</code><code>$TIMEZONE</code>
+<code>EXP SC   :</code><code>$exp</code>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<b>❤️EmeldaaLuv❤️</b>
+<b>SUKSES INSTALASI AUTOSCRIPT</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
-<i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/+6281255378890"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"INSTALL","url":"https://t.me/nixy_store"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
